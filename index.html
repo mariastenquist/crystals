@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="carousel carousel-slider center box" data-indicators="true">
+        <div class="carousel-item grey white-text">
+          <h1>Crystals Collector!</h1>
+          <h2>Game Instructions:</h2>
+          <h5>You will be shown a random generated number.
+          Below that: there are 4 crystals.<br>
+          Click on a crystal to add points to your score. Continue clicking on crystal(s) to attempt to match your score with the generated number given. You lose if your added points do not add up to the generated number. 
+          Each crystal possesses specific points, you must click on each to uncover its point value! <br> Good luck!
+          </h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m4 offset-m4 random_num">
+          <h2 id="random_num">random#</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m2 offset-m1 gem" value="gem1">
+          <img src="assets/images/gem1.png" alt="Gem1">
+        </div>
+        <div class="col m2 offset-m1 gem" value="gem2">
+          <img src="assets/images/gem2.png" alt="Gem2">
+        </div>
+        <div class="col m2 offset-m1 gem" value="gem3">
+          <img src="assets/images/gem3.png" alt="Gem3">
+        </div>
+        <div class="col m2 offset-m1 gem" value="gem4">
+          <img src="assets/images/gem4.png" alt="Gem4">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m4 offset-m4 score">
+          <p id="wins"></p>
+          <p id="losses"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="user_score" class="col m4 offset-m4 points">
+        </div>
+      </div>
+      <div class="row">
+        <div id="message" class="col m4 offset-m4">
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="./assets/js/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+    </script>
+  </body>
+</html>

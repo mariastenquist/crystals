@@ -1,0 +1,47 @@
+body {
+  background: url("../images/red.jpg");
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.box{
+  opacity: 0.8;
+}
+.random_num {
+  margin-top: 15px;
+  background-color: #fb9;
+  border: solid;
+  border-width: 4px;
+  border-color: #934;
+  opacity: 0.8;
+}
+
+.score {
+  margin-top: 15px;
+  background-color: #fb9;
+  border: solid;
+  border-width: 4px;
+  border-color: #934;
+  text-align: center;
+  line-height: 45px;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.points {
+  background-color: #fb9;
+  border: solid;
+  border-width: 4px;
+  border-color: #934;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.8;
+}
